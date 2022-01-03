@@ -77,6 +77,7 @@ ul{
     color: #fff;
     cursor: pointer;
     font-size: 16px;
+    margin: 50px 0 ;
 }
 .button--login{
     background: transparent;
@@ -179,4 +180,64 @@ ul{
     line-height: 21px;
     padding: 0 44px;
     margin-bottom: 87px;
+}
+.body__section{
+    display: flex;
+    flex-direction: column;
+}
+.feature-section1{
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    margin: 76px 0px 112px 0px;
+}
+.img-contentsection{
+    background-image: url(./pic/section/image\ &\ content.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 712px;
+    height: 535px;
+    margin: 0px 100px;
+    margin-left: -100px;
+}
+.header-content__heading--60px{
+    font-size: 40px;
+    margin: 18px 0px 25px 0px;
+}
+.header-content__text--width502{
+    max-width:502px;
+    
+}
+.feature-section2{
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    margin: 76px 0px 112px 0px;
+    background:#E2E7FB;
+    padding-top:117px;
+    padding-bottom: 89px;
+}
+.img-contentsection2{
+    background-image: url(./pic/section/Image\ &\ card.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 700px;
+    height: 570px;
+    margin: 0px 100px;
+    margin-right: 0px;
+}
+.testmonial-section{
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    margin:140px 0px;
+}
+.img-contentsection3{
+    background-image: url(./pic/section/All\ card.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 680px;
+    height: 660px;
+    margin: 0px 100px;
+    margin-left: -100px;
 }
